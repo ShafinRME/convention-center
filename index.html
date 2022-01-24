@@ -126,14 +126,17 @@
         <!----------------------------- 
     Toast Adding Part
  --------------------------->
-        <div class="toast-show d-flex" role="alert" aria-live="assertive" aria-atomic="true">
-            <div class="toast-header">
-                <img src="..." class="rounded me-2" alt="...">
+        <div class="toast-show d-flex justify-content-end mt-2" role="alert" aria-live="assertive" aria-atomic="true">
+            <div
+                class="border border-primary border-5 border-top-0 border-end-0 border-bottom-0 toast-header bg-info  d-flex h-25 mt-2">
+                <i class="fas fa-gift"></i>
             </div>
             <div class="toast-body">
                 20% off on next booking
+                <button type="button" class="btn-close btn-close-black me-2 m-auto" data-bs-dismiss="toast"
+                    aria-label="Close"></button>
             </div>
-            <button type="button-active" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+
         </div>
         <!--------------------------- 
         Packages Part
@@ -177,7 +180,7 @@
                         plan</a>
                 </div>
             </div>
-            <div class="card bg-primary col ms-2 me-2">
+            <div class="card bg-primary position-sticky col ms-2 me-2 ">
                 <div class="card-body">
                     <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
                         hot
@@ -309,9 +312,9 @@
             </div>
         </section>
         <section style="height: 300px;" id="sub"
-            class="container panda-info-background d-flex justify-content-center align-items-center rounded-3">
+            class="container bg-info mb-4 d-flex justify-content-center align-items-center rounded-3">
             <div>
-                <h1>LET'S STAY IN TOUCH
+                <h1>FOR EARLY BOOKING
                 </h1>
                 <p>Get updates on sales, specials and more
                 </p>
@@ -319,7 +322,7 @@
                 <br>
                 <input class="form-control" type="password" placeholder="Your Password">
                 <br>
-                <button class="panda-btn-but-now" type="button"> SUBMIT</button>
+                <button class="btn btn-success" type="button"> SUBMIT</button>
             </div>
         </section>
 
